@@ -10,3 +10,10 @@ git conifg --global -e
 '''sh
 git init
 '''
+
+## Ver los commit generados(Timeline de commits)
+
+'''sh
+git log #version larga
+git log --online # version corta
+'''
