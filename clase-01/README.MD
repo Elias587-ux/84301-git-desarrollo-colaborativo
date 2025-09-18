@@ -17,3 +17,10 @@ git init
 git log #version larga
 git log --online # version corta
 '''
+
+'''sh
+ git <comanado > --help
+ git status --help
+ git remote --help
+ git templete --help
+ '''
