@@ -24,3 +24,16 @@ git log --online # version corta
  git remote --help
  git templete --help
  '''
+Para ver el estado de los archivo
+ ## Para pasar de WD al SA
+
+ ## Para pasar del WD al SA (Preparando los archivos )
+
+ '''
+ git add . #todos los archivps
+ ##Para pasar del sa al LR hacer commir
+ git commit -m "mesaje"
+ actualizar repositorio remoto
+
+ git status -s
+ 
