@@ -13,3 +13,16 @@
  git add <nombre-archivo>
  git 
  '''
+
+ ## Ver el contenido deun commit hecho
+ '''
+ git show <hash>
+ git show 235bf89
+
+ ## Guardar los cambios en el remositorio
+'''sh
+git commit -m "Mensaje"
+git commit # se abre el ditor para escribir el mensaje
+git commit -a # se hace un add no se hace un add untracked y se abre el editor para escribir el mensaje
+'''
+**NOTA**: LOS MENSAJES IDEALMENTE PUEDEN TENER 80 CARACTERES
