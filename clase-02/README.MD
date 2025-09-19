@@ -26,3 +26,10 @@ git commit # se abre el ditor para escribir el mensaje
 git commit -a # se hace un add no se hace un add untracked y se abre el editor para escribir el mensaje
 '''
 **NOTA**: LOS MENSAJES IDEALMENTE PUEDEN TENER 80 CARACTERES
+## Ver los commits dentro del repositorio
+'''sh
+git log #largo con detalle
+git log --oneline # corto solo el mensaje
+git log -2 #me muestra 2 commit del listados, los ultimos 2
+--oneline-2 # corto solo el mensaje y solo los ultimos
+'''
