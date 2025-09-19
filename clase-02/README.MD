@@ -39,3 +39,9 @@ git log -2 #me muestra 2 commit del listados, los ultimos 2
 '''sh
 git diff
 '''
+
+## Empezando con ramas 
+
+## Lista las ramas locales
+'''sh
+git branch 
