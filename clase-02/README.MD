@@ -33,3 +33,9 @@ git log --oneline # corto solo el mensaje
 git log -2 #me muestra 2 commit del listados, los ultimos 2
 --oneline-2 # corto solo el mensaje y solo los ultimos
 '''
+
+## Ver la diferencia entre el wd y el local repo
+
+'''sh
+git diff
+'''
