@@ -66,7 +66,7 @@ git config --global alias.c "commit -m"
 git config --list
 git config --get-regexp alias
 ````
-## fusiones y merge 
+##  Tipo de fusiones fusiones y merge 
 ````sh
 fast-foreard > automatico > soluciona git ( no crea commit de fusion)
 triple via> automatico -< Soluciona git ( crea commit de fusion)
