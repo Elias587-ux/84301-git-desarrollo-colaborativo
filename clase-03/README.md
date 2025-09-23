@@ -50,3 +50,19 @@ git commit --amend --no-edit # evito cambiar el mensaje
 ````sh
 git add --patch
 ````
+## Git alias
+## Crear un alias
+````sh
+git config --global alias.s "status"
+git config --global alias.sc "status --short"
+git config --global alias.ll "log"
+git config --global alias.l "log --oneline"
+git config --global alias.amend "commit --amend --no-edit"
+git config --global alias.c "commit -m"
+````
+## Para ver los alias
+## lsitar los alias que tengo cargado
+````sh
+git config --list
+git config --get-regexp alias
+````
