@@ -40,3 +40,13 @@ si me quiero traer los cambios en dev de la rama main
 git switch main
 git merge dev
 ````
+
+## Hacer un commit sin cambiar el mensaje pero agregadon archivos o en linea de guardar dentro de commit
+````sh
+git add . #Agrego los archivos que fueron modificados
+git commit --amend --no-edit # evito cambiar el mensaje
+````
+## Agregar modificavcione sde archivos granularmente AGREGAR PARTED DEL CODIGO AGREGADON EN UN ARCHIVO
+````sh
+git add --patch
+````
