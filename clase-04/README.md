@@ -29,3 +29,17 @@ git stgash show stash{0}
 ````sh
 git stash pop #recupera el ultimo stash realizado y si no hya conflicto lo borra
 ````
+
+## Aplicar un stash en particular
+
+````sh
+git stash apply 1 #stasht @{1}
+git stash apply 2 #stasht @{2}
+````
+## Eliminar un stash en particular
+
+````sh
+git stash drop #borra el stash arriba de todo
+git stash drop 1 #borra el primer stash
+git stash drop 0 #borra el segundo stash stash
+````
