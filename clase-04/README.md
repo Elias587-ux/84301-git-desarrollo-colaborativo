@@ -73,3 +73,18 @@ git reset --hard <hash>
 ````
 
 ## Trabajar con personas donde no conozco 
+# Git tags
+## 2 tipos depunteros .Punteros estaticos y los punteros dinamicos
+
+## Estaticos 
+Tags
+## Dinamicos 
+
+HEAD,Ramas
+
+## Crear un tags
+
+````sh
+git tag
+git tag -a v1.0 -m "Version actual de la documentacion"
+````
