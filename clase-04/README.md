@@ -88,3 +88,14 @@ HEAD,Ramas
 git tag
 git tag -a v1.0 -m "Version actual de la documentacion"
 ````
+
+## Subir al remoto los tags
+
+````sh
+git push origin --tags # No es recomendado utilizarlo
+git push origin v1.0 ## Si se recomienda
+````
+## Borrar tags
+````sh
+git tag -d
+````
