@@ -11,6 +11,7 @@
 git stash loist
 ````
 
+<<<<<<< Updated upstream
 ## Crear un stash
 ````sh
 git satsh -m "mensaje descriptivo"
@@ -22,4 +23,9 @@ git satsh -m "mensaje descriptivo"
 git stash show<identificador del stash>
 git stash show 0
 git stgash show stash{0}
+=======
+## Recuoerar el stash
+
+````sh
+git stash pop #recupera el ultimo stash realizado y si no hya conflicto lo borra
 ````
